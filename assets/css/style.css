@@ -11,7 +11,7 @@ body{
 }
 .main{
     background-color: #156fa9;
-    background-image: url('../imagens/IA.jpg');
+    background-image: url('../imagens/tecnologia.jpg');
 }
 .container{
     max-width: 1070px;
@@ -20,10 +20,61 @@ body{
 }
 header{
     padding-top: 45px;
+    
+}
+header img{
+    height: 50px;
+    width: 50px;
 }
 .heroArea{
     display: flex;
 }
+.heroArea .leftside h1{
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: bold; /*negrito*/
+    margin:  80px 0 30px 0;
+}
+.heroArea .leftside .subtitle{
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+.heroArea .leftside .form {
+    margin-bottom: 30px;
+    
+}
+
+.heroArea .leftside .form input{
+    border:  1px solid #D8D8D8;
+    background: transparent;
+    height: 40px;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    width: 300px;
+    padding: 0 10px;
+}
+.heroArea .leftside .form button{
+    height: 40px;
+    border: 0;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    padding: 0 20px;
+    margin-left: 10px;
+}
+.heroArea .leftside .techs{
+    margin-bottom: 80px;
+}
+.heroArea .leftside .techs img{
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+}
 .heroArea .leftside{
+    flex: 1;
+}
+.heroArea .rightsite{
     flex: 1;
 }
