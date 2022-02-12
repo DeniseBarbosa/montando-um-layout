@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Montserrat:wght@100;300;400;600;700&family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+*{
+    box-sizing: border-box; /*todos os elementos dessa pagina vai ter esse estilo aplicado*/
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    background-color: #156fa9;
+    background-image: url('../imagens/IA.jpg');
+}
+.container{
+    max-width: 1070px;
+    margin: auto;
+    color: white;
+}
+header{
+    padding-top: 45px;
+}
+.heroArea{
+    display: flex;
+}
+.heroArea .leftside{
+    flex: 1;
+}
