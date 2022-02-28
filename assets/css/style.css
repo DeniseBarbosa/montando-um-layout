@@ -10,13 +10,14 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .main{
-    background-color: #156fa9;
-    background-image: url('../imagens/tecnologia.jpg');
+    background-color: #5e77de;
+    
+    
 }
 .container{
     max-width: 1070px;
     margin: auto;
-    color: white;
+    color: black;
 }
 header{
     padding-top: 45px;
@@ -50,7 +51,7 @@ header img{
     background: transparent;
     height: 40px;
     outline: none;
-    color: white;
+    color: black;
     font-size: 14px;
     width: 300px;
     padding: 0 10px;
@@ -75,6 +76,11 @@ header img{
 .heroArea .leftside{
     flex: 1;
 }
-.heroArea .rightsite{
+.heroArea .rightside{
     flex: 1;
+    background-size: 100% auto;
+}
+.rightside{
+    background: url('../imagens/img-figma.png');
+    
 }
